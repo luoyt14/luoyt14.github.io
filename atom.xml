@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>天天的个人主页</title>
+  <title>天天的博客</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://luoyt14.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://luoyt14.github.io/"/>
   <updated>2021-01-06T05:42:37.696Z</updated>
-  <id>http://example.com/</id>
+  <id>https://luoyt14.github.io/</id>
   
   <author>
     <name>天天lyt</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>README</title>
-    <link href="http://example.com/2021/01/04/README/"/>
-    <id>http://example.com/2021/01/04/README/</id>
+    <link href="https://luoyt14.github.io/2021/01/04/README/"/>
+    <id>https://luoyt14.github.io/2021/01/04/README/</id>
     <published>2021-01-04T07:44:05.000Z</published>
     <updated>2021-01-06T05:42:37.696Z</updated>
     
