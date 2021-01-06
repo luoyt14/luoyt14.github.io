@@ -294,17 +294,17 @@ var _hmt = _hmt || [];
   
 
   
-  <div id="gitalk-container"></div> 
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-<script type="text/javascript">
+<div id="gitalk-container"></div> 
+<script>
 var gitalk = new Gitalk({
   id: "https://luoyt14.github.io/2021/01/04/README/",
   owner: 'luoyt14',
   repo: 'luoyt14.github.io',
   clientID: '25fef7f752dec5f45ba6',
   clientSecret: '58c760ee32ea6273a325d5d7fa72769977f13857',
-  admin: ['luoyt14']
+  admin: ['luoyt14'],
 })
 gitalk.render('gitalk-container')
 </script>
