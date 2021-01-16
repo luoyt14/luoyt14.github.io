@@ -395,9 +395,10 @@ var _hmt = _hmt || [];
   <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 <div id="gitalk-container"></div> 
-<script src="https://github.com/blueimp/JavaScript-MD5/blob/master/js/md5.min.js">
+<script src="/js/md5.min.js"></script>
+<script>
   var gitalk = new Gitalk({
-    id: 'https://luoyt14.github.io/2021/01/08/note_20210108/', //md5(location.pathname),
+    id: md5(location.pathname),
     owner: 'luoyt14',
     repo: 'luoyt14.github.io',
     clientID: '25fef7f752dec5f45ba6',
