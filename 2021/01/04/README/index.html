@@ -306,22 +306,10 @@ var _hmt = _hmt || [];
   <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 <div id="gitalk-container"></div> 
+<script src="{{ site.baseurl }}/js/md5.min.js"></script>
 <script>
-  function GetUrlRelativePath()
-  {
-    var url = document.location.toString();
-    var arrUrl = url.split("//");
-
-  var start = arrUrl[1].indexOf("/");
-    var relUrl = arrUrl[1].substring(start);//stop省略，截取从start开始到结尾的所有字符
-
-  if(relUrl.indexOf("?") != -1){
-      relUrl = relUrl.split("?")[0];
-    }
-    return relUrl;
-  }
   var gitalk = new Gitalk({
-    id: GetUrlRelativePath(),
+    id: md5(location.href),
     owner: 'luoyt14',
     repo: 'luoyt14.github.io',
     clientID: '25fef7f752dec5f45ba6',
