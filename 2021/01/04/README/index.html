@@ -48,12 +48,24 @@ var _hmt = _hmt || [];
 
 <meta name="generator" content="Hexo 5.3.0"></head>
 
+<!--动态线条背景-->
+
+  <script type="text/javascript" color="255, 235, 59" opacity="0.8" 
+      zIndex="-1" count="99" 
+      src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+  </script>
+
+
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/love.js"></script>
+
 <body>
   <div id="container" q-class="show:isCtnShow">
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
       
-<div class="overlay" style="background: #4d4d4d"></div>
+<!-- <div class="overlay" style="background: #4d4d4d"></div> -->
+<div class="overlay" ></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
@@ -110,7 +122,8 @@ var _hmt = _hmt || [];
     <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
       
 <nav id="mobile-nav">
-  	<div class="overlay js-overlay" style="background: #4d4d4d"></div>
+	  <!-- <div class="overlay js-overlay" style="background: #4d4d4d"></div> -->
+	<div class="overlay js-overlay"></div>
 	<div class="btnctn js-mobile-btnctn">
   		<div class="slider-trigger list" q-on="click: openSlider(e)"><i class="icon icon-sort"></i></div>
 	</div>
