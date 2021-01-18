@@ -3144,7 +3144,7 @@ pre .id {
   #container,
   body {
     background: linear-gradient(rgba(190, 173, 236, 0.5), rgba(190, 173, 236, 0.5)), 
-    url('/img/mobile.jpg') no-repeat 50% fixed top;
+    url('/img/mobile.jpg') no-repeat 0% 0%/ contain;
   }
   html {
     height: auto;
