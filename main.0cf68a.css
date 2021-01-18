@@ -963,18 +963,18 @@ html {
 
 .left-col #header a {
   /* color: #696969 */
-  color: #db7adf
+  color: #0e0591
 }
 
 .left-col #header a:hover {
   /* color: #b0a0aa */
-  color: #03A9F4
+  color: #f403e0
 }
 
 .left-col #header .header-subtitle {
   text-align: center;
   /* color: #999; */
-  color:#db7adf;
+  color:#0e0591;
   font-size: 18px;
   line-height: 25px;
   overflow: hidden;
